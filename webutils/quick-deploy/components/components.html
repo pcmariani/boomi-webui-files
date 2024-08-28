@@ -32,25 +32,25 @@
     </tbody>
   </table>
 
-  <!--<button id="deploy" role="button"-->
-  <!--        hx-post="/ws/rest/util/quickdeploy"-->
-  <!--        hx-target="#search-results"-->
-  <!--        hx-swap="innerHTML"-->
-  <!--        hx-include="#search"-->
-  <!--        hx-ext="json-enc"-->
-  <!--        hx-indicator="#spinner" >-->
-  <!--  Quick Deploy Selected-->
-  <!--</button>-->
-
-  <a href="#" id="deploy" role="button" 
-          hx-post="../execute"
+  <button id="deploy" role="button"
+          hx-post="/ws/rest/util/quickdeploy"
           hx-target="#search-results"
           hx-swap="innerHTML"
           hx-include="#search"
           hx-ext="json-enc"
           hx-indicator="#spinner" >
     Quick Deploy Selected
-  </a>
+  </button>
+
+  <!--<a href="#" id="deploy" role="button" -->
+  <!--        hx-post="../execute"-->
+  <!--        hx-target="#search-results"-->
+  <!--        hx-swap="innerHTML"-->
+  <!--        hx-include="#search"-->
+  <!--        hx-ext="json-enc"-->
+  <!--        hx-indicator="#spinner" >-->
+  <!--  Quick Deploy Selected-->
+  <!--</a>-->
 
   <img id="spinner" class="htmx-indicator" src="../../_static_common/rings.svg" alt="Request In Flight..."/>
 
