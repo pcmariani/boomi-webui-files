@@ -1,0 +1,36 @@
+<div id="main" class="grid">
+  <div>
+    <form role="search" id="search-bar" onsubmit="return false;">
+      <input id="search" name="q" type="search" placeholder="Start typing component name"
+        hx-get="components"
+        hx-include="#search"
+        hx-target="#search-results"
+        hx-trigger="search, keyup delay:200ms changed, keyup[keyCode==13]"
+        hx-swap="innerHTML"
+        hx-on::after-on-load="executeSearchOpt(); updateTimeAgo(); makeTablesSortable();"
+        hx-indicator="#spinner"
+      />
+      <input type="submit" value="Search"
+        hx-get="components"
+        hx-include="#search"
+        hx-target="#search-results"
+        hx-trigger="search, keyup delay:200ms changed, keyup[keyCode==13]"
+        hx-swap="innerHTML"
+        hx-on::after-on-load="executeSearchOpt(); updateTimeAgo(); makeTablesSortable();"
+      />
+    </form>
+  </div>
+
+  <div>
+    <select name="opt" aria-label="Select search options" required onchange="executeSearchOpt()">
+      <option>All Components</option>
+      <option>Deployed Only</option>
+      <option>Not Deployed Only</option>
+    </select>
+  </div>
+
+</div>
+<!--<img id="spinner" class="htmx-indicator" src="../_static_common/rings.svg" alt="Request In Flight..."/>-->
+
+<div id="search-results"></div>
+<div id="message"></div>
