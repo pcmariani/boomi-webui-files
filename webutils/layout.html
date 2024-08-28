@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <title>Hello, world!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <link rel="stylesheet" href="../_static_common/styles.css" />
+    <link rel="stylesheet" href="sub/subsub/style.css" />
+
+    <script type="text/javascript" src="../_static_common/functions.js"></script>
+
+    <script
+      src="https://unpkg.com/htmx.org@1.9.4"
+      integrity="sha384-zUfuhFKKZCbHTY6aRR46gxiqszMk5tcHjsVFxnUo8VMus4kHGVdIYVbOYYNlKmHV"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/htmx.org/dist/ext/json-enc.js"></script>
+    <!--<script type="text/javascript" src="../www/static/functions.js"></script>-->
+
+  </head>
+
+  <body>
+    {{ header.html }}
+    <div class="main">
+      <h3>HELLO WORLD</h3>
+    </div>
+    <div hx-get="other"></div>
+    <div hx-post="other"></div>
+    <div hx-blah="other"></div>
+    <a href="#top" role="button" class="primary" id="gototop">TOP</a>
+  </body>
+</html>
