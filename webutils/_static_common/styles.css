@@ -1,0 +1,20 @@
+:root {
+  --font-size: 14px;
+}
+html {
+  font-size: 16px;
+  background: black;
+}
+.container {
+  max-width: 1300px;
+  margin-top: 20px;
+}
+thead th {
+  font-weight: 700;
+}
+input:not([type="checkbox"], [type="radio"], [type="range"]) {
+  height: calc(
+    1rem * var(--line-height) + var(--form-element-spacing-vertical) * 1 +
+      var(--border-width) * 2
+  );
+}
