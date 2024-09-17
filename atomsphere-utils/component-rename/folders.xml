@@ -1,0 +1,54 @@
+<Folders>
+  <Folder fullPath="Boomi_PeterMariani" id="RjoyMDk4NDUx" name="Boomi_PeterMariani" parentId="" parentName="" />
+  <Folder fullPath="Boomi_PeterMariani/Listener Test" id="RjoyMDk4NDUz" name="Listener Test" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/Eval Test" id="Rjo1MTI1NTI4" name="Eval Test" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling" id="Rjo1NDEzMzc0" name="Error Handling" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework" id="Rjo1NDEzMzc1" name="#2 - Framework" parentId="Rjo1NDEzMzc0" parentName="Error Handling" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/03 [FWK_MON] Monitoring" id="Rjo1NDEzMzc2" name="03 [FWK_MON] Monitoring" parentId="Rjo1NDEzMzc1" parentName="#2 - Framework" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/05 [FWK_HUB] Execute Channel Updates" id="Rjo1NDEzMzc3" name="05 [FWK_HUB] Execute Channel Updates" parentId="Rjo1NDEzMzc1" parentName="#2 - Framework" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/01 [FWK] Context &amp; Notification" id="Rjo1NDEzMzc4" name="01 [FWK] Context &amp; Notification" parentId="Rjo1NDEzMzc1" parentName="#2 - Framework" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/01 [FWK] Context &amp; Notification/Impl" id="Rjo1NDEzMzc5" name="Impl" parentId="Rjo1NDEzMzc4" parentName="01 [FWK] Context &amp; Notification" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/01 [FWK] Context &amp; Notification/Facade" id="Rjo1NDEzMzgw" name="Facade" parentId="Rjo1NDEzMzc4" parentName="01 [FWK] Context &amp; Notification" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/## Common" id="Rjo1NDEzMzgx" name="## Common" parentId="Rjo1NDEzMzc1" parentName="#2 - Framework" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/04 [FWK_HUB] MasterDataHub" id="Rjo1NDEzMzgy" name="04 [FWK_HUB] MasterDataHub" parentId="Rjo1NDEzMzc1" parentName="#2 - Framework" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/04 [FWK_HUB] MasterDataHub/Facade" id="Rjo1NDEzMzgz" name="Facade" parentId="Rjo1NDEzMzgy" parentName="04 [FWK_HUB] MasterDataHub" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/04 [FWK_HUB] MasterDataHub/Impl" id="Rjo1NDEzMzg0" name="Impl" parentId="Rjo1NDEzMzgy" parentName="04 [FWK_HUB] MasterDataHub" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/06 [FWK_SAP] SAP" id="Rjo1NDEzMzg1" name="06 [FWK_SAP] SAP" parentId="Rjo1NDEzMzc1" parentName="#2 - Framework" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/06 [FWK_SAP] SAP/Facade" id="Rjo1NDEzMzg2" name="Facade" parentId="Rjo1NDEzMzg1" parentName="06 [FWK_SAP] SAP" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/06 [FWK_SAP] SAP/Impl" id="Rjo1NDEzMzg3" name="Impl" parentId="Rjo1NDEzMzg1" parentName="06 [FWK_SAP] SAP" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/02 [FWK_DBG] Debug" id="Rjo1NDEzMzg4" name="02 [FWK_DBG] Debug" parentId="Rjo1NDEzMzc1" parentName="#2 - Framework" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/02 [FWK_DBG] Debug/Impl" id="Rjo1NDEzMzg5" name="Impl" parentId="Rjo1NDEzMzg4" parentName="02 [FWK_DBG] Debug" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/02 [FWK_DBG] Debug/Facade" id="Rjo1NDEzMzkw" name="Facade" parentId="Rjo1NDEzMzg4" parentName="02 [FWK_DBG] Debug" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/07 [FWK_TST] Testing (WIP)" id="Rjo1NDEzMzkx" name="07 [FWK_TST] Testing (WIP)" parentId="Rjo1NDEzMzc1" parentName="#2 - Framework" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/07 [FWK_TST] Testing (WIP)/Facade" id="Rjo1NDEzMzky" name="Facade" parentId="Rjo1NDEzMzkx" parentName="07 [FWK_TST] Testing (WIP)" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/07 [FWK_TST] Testing (WIP)/Impl" id="Rjo1NDEzMzkz" name="Impl" parentId="Rjo1NDEzMzkx" parentName="07 [FWK_TST] Testing (WIP)" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/#2 - Framework/08 [FWK_API] API Management" id="Rjo1NDEzMzk0" name="08 [FWK_API] API Management" parentId="Rjo1NDEzMzc1" parentName="#2 - Framework" />
+  <Folder fullPath="Boomi_PeterMariani/Error Handling/MICME" id="Rjo1NDEzMzk1" name="MICME" parentId="Rjo1NDEzMzc0" parentName="Error Handling" />
+  <Folder fullPath="Boomi_PeterMariani/AAPI" id="Rjo2MDA4ODM3" name="AAPI" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/www/utils/QuickDeploy" id="Rjo2MDk4OTkz" name="QuickDeploy" parentId="Rjo2MTI3OTQ0" parentName="utils" />
+  <Folder fullPath="Boomi_PeterMariani/FWK" id="Rjo2MTA0NTI1" name="FWK" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/www" id="Rjo2MTE0Nzkw" name="www" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/www/utils" id="Rjo2MTI3OTQ0" name="utils" parentId="Rjo2MTE0Nzkw" parentName="www" />
+  <Folder fullPath="Boomi_PeterMariani/www/common" id="Rjo2MTI3OTQ1" name="common" parentId="Rjo2MTE0Nzkw" parentName="www" />
+  <Folder fullPath="Boomi_PeterMariani/userlib test" id="Rjo2MjEwMjUy" name="userlib test" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/For Vlad" id="Rjo2MjQwMzgx" name="For Vlad" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/Retrieval-Augmented Generation with Boomi_2024-07-09-17:40:54" id="Rjo2ODcyMDMw" name="Retrieval-Augmented Generation with Boomi_2024-07-09-17:40:54" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/AI - Agent Tooling" id="Rjo2ODcyMDg2" name="AI - Agent Tooling" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/Salesforce Opportunity Summarization Agent_2024-07-11-14:28:14" id="Rjo2ODg3NTU2" name="Salesforce Opportunity Summarization Agent_2024-07-11-14:28:14" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/AI – Cohere Generate Vector Embedding LLM Call_2024-07-22-14:00:24" id="Rjo2OTE4MTcx" name="AI – Cohere Generate Vector Embedding LLM Call_2024-07-22-14:00:24" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/SF AI" id="Rjo2OTE4NTI1" name="SF AI" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/AAPI/Component" id="Rjo2OTIyMzkw" name="Component" parentId="Rjo2MDA4ODM3" parentName="AAPI" />
+  <Folder fullPath="Boomi_PeterMariani/sql script" id="Rjo2OTYzMTM1" name="sql script" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/www/z_not_in_use" id="Rjo2OTY1NzIz" name="z_not_in_use" parentId="Rjo2MTE0Nzkw" parentName="www" />
+  <Folder fullPath="Boomi_PeterMariani/www/gpt" id="Rjo2OTczOTU5" name="gpt" parentId="Rjo2MTE0Nzkw" parentName="www" />
+  <Folder fullPath="Boomi_PeterMariani/www/z_scratch" id="Rjo2OTg2MDk4" name="z_scratch" parentId="Rjo2MTE0Nzkw" parentName="www" />
+  <Folder fullPath="Boomi_PeterMariani/WebUI/Atomsphere Utils" id="Rjo2OTk2MTgz" name="Atomsphere Utils" parentId="Rjo3MDEyNDMz" parentName="WebUI" />
+  <Folder fullPath="Boomi_PeterMariani/WebUI/_common" id="Rjo2OTk2MjAx" name="_common" parentId="Rjo3MDEyNDMz" parentName="WebUI" />
+  <Folder fullPath="Boomi_PeterMariani/_common" id="Rjo2OTk2MjI2" name="_common" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+  <Folder fullPath="Boomi_PeterMariani/_common/CONNECTIONS" id="Rjo2OTk2MjI4" name="CONNECTIONS" parentId="Rjo2OTk2MjI2" parentName="_common" />
+  <Folder fullPath="Boomi_PeterMariani/WebUI/_common/GET File" id="Rjo2OTk2NzY0" name="GET File" parentId="Rjo2OTk2MjAx" parentName="_common" />
+  <Folder fullPath="Boomi_PeterMariani/WebUI/_common/APPLY Template" id="Rjo2OTk2NzY5" name="APPLY Template" parentId="Rjo2OTk2MjAx" parentName="_common" />
+  <Folder fullPath="Boomi_PeterMariani/WebUI/Atomsphere Utils/Component Rename" id="Rjo2OTk2Nzg4" name="Component Rename" parentId="Rjo2OTk2MTgz" parentName="Atomsphere Utils" />
+  <Folder fullPath="Boomi_PeterMariani/WebUI/Atomsphere Utils/QuickDeploy" id="Rjo2OTk4NzMz" name="QuickDeploy" parentId="Rjo2OTk2MTgz" parentName="Atomsphere Utils" />
+  <Folder fullPath="Boomi_PeterMariani/WebUI" id="Rjo3MDEyNDMz" name="WebUI" parentId="RjoyMDk4NDUx" parentName="Boomi_PeterMariani" />
+</Folders>

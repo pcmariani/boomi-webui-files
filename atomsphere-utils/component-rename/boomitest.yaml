@@ -1,0 +1,19 @@
+OPTS:
+  # - data
+  # - ddps
+  # - DPPs
+  # - assertions
+  # - no labels
+  # - no println
+  # - no files
+
+GLOBALS:
+  DPPs: folders.properties
+  script: createTree.groovy
+
+# ---
+
+t1:
+  data: ./componentMetadatas.xml
+# ---
+

@@ -1,8 +1,14 @@
 function checkAll(bx) {
   var cbs = document.getElementsByTagName("input");
   for (var i = 0; i < cbs.length; i++) {
-    if (cbs[i].type == "checkbox") {
-      cbs[i].checked = bx.checked;
+    var cb = cbs[i];
+    var ctr = cb.closest("tr");
+    if (
+      cb.type == "checkbox" &&
+      (!ctr.getAttribute("style") ||
+        !ctr.getAttribute("style").includes("display: none;"))
+    ) {
+      cb.checked = bx.checked;
     }
   }
 }
@@ -82,14 +88,6 @@ function makeTablesSortable() {
       getCellValue(asc ? a : b, idx),
       getCellValue(asc ? b : a, idx),
     );
-
-  // do the work...
-  //document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-  //  const table = th.closest('table');
-  //  Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
-  //    .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-  //    .forEach(tr => table.appendChild(tr) );
-  //})));
 
   document.querySelectorAll("th").forEach((th) =>
     th.addEventListener("click", () => {

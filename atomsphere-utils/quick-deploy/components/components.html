@@ -1,57 +1,53 @@
-<form id="selected-components">
+<div id="search-results"
+  hx-on::after-settle="executeSearchOpt(); updateTimeAgo(); makeTablesSortable();"
+>
+  <form id="selected-components">
 
-  <table>
-    <thead>
-      <tr>
-        <th><input type="checkbox" onclick="checkAll(this)"></th>
-        <!--<th>ComponentId</th>-->
-        <th>FolderName</th>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Revision</th>
-        <th>Package Version</th>
-        <th>Deployment Version</th>
-        <th>Last Deployed</th>
-      </tr>
-    </thead>
-    <tbody id="components-data">
-      <% FOR component %>
-      <tr <% IF {{ddp_componentId}} IN {{DPP_deployedComponentIds}} %>class="just-deployed"<% ENDIF %>
-        class="{{ddp_deploymentStatus}}" >
-        <td><input type="checkbox" name="selected_component_ids" value="{{ddp_componentId}}"></td>
-        <!--<td>{{ddp_componentId}}</td>-->
-        <td>{{ddp_folderName}}/</td>
-        <td>{{ddp_name}}</td>
-        <td>{{ddp_type}}</td>
-        <td>{{ddp_version}}</td>
-        <td>{{ddp_packageVersion}}</td>
-        <td>{{ddp_deploymentVersion}}</td>
-        <td class="timeAgo" dateStr="{{ddp_deployedDate}}"></td>
-      </tr>
-      <% END FOR %>
-    </tbody>
-  </table>
+    <table>
+      <thead>
+        <tr>
+          <th><input type="checkbox" onclick="checkAll(this)"></th>
+          <!--<th>ComponentId</th>-->
+          <th>FolderName</th>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Revision</th>
+          <th>Package Version</th>
+          <th>Deployment Version</th>
+          <th>Last Deployed</th>
+        </tr>
+      </thead>
+      <tbody id="components-data">
+        <% FOR component %>
+        <tr <% IF {{ddp_componentId}} IN {{DPP_deployedComponentIds}} %>class="just-deployed"<% ENDIF %>
+          class="{{ddp_deploymentStatus}}" >
+          <td><input type="checkbox" name="selected_component_ids" value="{{ddp_componentId}}"></td>
+          <!--<td>{{ddp_componentId}}</td>-->
+          <td>{{ddp_folderName}}/</td>
+          <td>{{ddp_name}}</td>
+          <td>{{ddp_type}}</td>
+          <td>{{ddp_version}}</td>
+          <td>{{ddp_packageVersion}}</td>
+          <td>{{ddp_deploymentVersion}}</td>
+          <td class="timeAgo" dateStr="{{ddp_deployedDate}}"></td>
+        </tr>
+        <% END FOR %>
+      </tbody>
+    </table>
 
-  <button id="deploy" role="button"
-          hx-post="../execute"
-          hx-target="#search-results"
-          hx-swap="innerHTML"
-          hx-include="#search"
-          hx-ext="json-enc"
-          hx-indicator="#spinner" >
-    Quick Deploy Selected
-  </button>
+    <div>
+      <button id="deploy" role="button"
+        hx-post="../execute"
+        hx-target="#search-results"
+        hx-swap="outerHTML"
+        hx-include="#search"
+        hx-ext="json-enc-custom"
+        <!--hx-indicator="#spinner"-->
+      >
+        Quick Deploy Selected
+      </button>
+      <!--<img id="spinner" class="htmx-indicator" src="../../_common/rings.svg" alt="Request In Flight..."/>-->
+    </div>
 
-  <!--<a href="#" id="deploy" role="button" -->
-          <!--hx-post="../execute"-->
-  <!--        hx-target="#search-results"-->
-  <!--        hx-swap="innerHTML"-->
-  <!--        hx-include="#search"-->
-  <!--        hx-ext="json-enc"-->
-  <!--        hx-indicator="#spinner" >-->
-  <!--  Quick Deploy Selected-->
-  <!--</a>-->
-
-  <img id="spinner" class="htmx-indicator" src="../../_common/rings.svg" alt="Request In Flight..."/>
-
-</form>
+  </form>
+</div>

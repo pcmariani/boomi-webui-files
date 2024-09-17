@@ -1,0 +1,52 @@
+<ComponentMetadatas>
+  <ComponentMetadata componentId="58bc3f02-9ce6-47c1-a3ad-229906b1618a" folderId="Rjo2MDA4ODM3" folderName="AAPI" name="Boomi AtomSphere API ComponentMetadata QUERY Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="2451caa1-80f8-4e8d-9e73-355f571b470e" folderId="Rjo2MDA4ODM3" folderName="AAPI" name="Boomi AtomSphere API Component GET Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="981ad111-d4b0-413b-bb6d-4eb6cfdc9624" folderId="Rjo2MDA4ODM3" folderName="AAPI" name="AAPI GET Component" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="1f5361f1-455e-466f-aeda-b86f11d55694" folderId="Rjo2MDA4ODM3" folderName="AAPI" name="AAPI Component ExtractScript" type="script.processing" version="1" />
+  <ComponentMetadata componentId="65ad86f6-ec69-40f9-abef-77c0a7189eb4" folderId="Rjo2MDA4ODM3" folderName="AAPI" name="AAPI QUERY ComponentMetadata by name/type" subType="boomiapi" type="connector-action" version="3" />
+  <ComponentMetadata componentId="8883962d-d9a4-419d-a095-7968e7c7fec9" folderId="Rjo2MDA4ODM3" folderName="AAPI" name="AAPI QUERY ComponentMetadata by name" subType="boomiapi" type="connector-action" version="5" />
+  <ComponentMetadata componentId="4923e07c-82c3-47f5-ad24-4c6b5b86f96c" folderId="Rjo2MDk4OTkz" folderName="QuickDeploy" name="Boomi AtomSphere API ComponentMetadata QUERY Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="5d606046-d3a9-43cf-8f51-dad7f4085aa1" folderId="Rjo2MDk4OTkz" folderName="QuickDeploy" name="AAPI ComponentMetadata QUERY by name" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="6a5665b8-7855-4fff-8a34-972aa72369fe" folderId="Rjo2MDk4OTkz" folderName="QuickDeploy" name="UTIL QUERY Components" subType="wss" type="connector-action" version="3" />
+  <ComponentMetadata componentId="085b1608-92be-4367-aa3a-469fdfee32f8" folderId="Rjo2MTA0NTI1" folderName="FWK" name="AtomSphere API: Packaged Components and Deployments Examples" type="process" version="1" />
+  <ComponentMetadata componentId="f757d168-20cf-409f-9f66-54138661e92a" folderId="Rjo2MTA0NTI1" folderName="FWK" name="AtomSphere API: Deploy All Packaged Components from One Environment to Another" type="process" version="1" />
+  <ComponentMetadata componentId="0d3badc4-3ef8-414a-a91e-1f7011bcf750" folderId="Rjo2MTA0NTI1" folderName="FWK" name="AtomSphere API PackagedComponent CREATE Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="3d171f26-1134-4e73-8b85-d1764e985766" folderId="Rjo2MTA0NTI1" folderName="FWK" name="Generate Packaged Component Request" type="transform.map" version="1" />
+  <ComponentMetadata componentId="07559ec2-97f8-44c5-b372-9cb59a976cca" folderId="Rjo2MTA0NTI1" folderName="FWK" name="AtomSphere API PackagedComponent CREATE Request" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="4c185700-b9d6-47e0-a7bb-9f2abf30a9b1" folderId="Rjo2MTA0NTI1" folderName="FWK" name="Simple Packaged Component Details" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="b24f4f1a-6ff5-42d3-a3b2-99da0b56e69b" folderId="Rjo2MTA0NTI1" folderName="FWK" name="AtomSphere API: Automating Packaged Components, Deployments" type="process" version="3" />
+  <ComponentMetadata componentId="515a961b-06cf-41a7-b49a-07152ca731f2" folderId="Rjo2MDk4OTkz" folderName="QuickDeploy" name="AAPI CREATE PackagedComponent" subType="boomiapi" type="connector-action" version="3" />
+  <ComponentMetadata componentId="6d34cdfa-c850-47a5-b873-140057b09e95" folderId="Rjo2MDk4OTkz" folderName="QuickDeploy" name="-utils QUERY DeployableComponents" type="process" version="28" />
+  <ComponentMetadata componentId="9981f8ff-3115-46af-8f60-fece98d01c9a" folderId="Rjo2OTIyMzkw" folderName="Component" name="Boomi AtomSphere API ComponentMetadata QUERY Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="4591c52f-1208-4df6-813b-0c72aff4519c" folderId="Rjo2OTIyMzkw" folderName="Component" name="AAPI QUERY ComponentMeta" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="f01fccca-5833-4cdf-8a00-3a3cebf93108" folderId="Rjo2OTIyMzkw" folderName="Component" name="Boomi AtomSphere API Component GET Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="f9a805f5-c1ec-40c4-aa5a-252063fd1856" folderId="Rjo2OTIyMzkw" folderName="Component" name="AAPI GET Component" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="28dc147a-5447-440f-a038-2894ec4f942c" folderId="Rjo2OTIyMzkw" folderName="Component" name="component process" type="profile.json" version="1" />
+  <ComponentMetadata componentId="6229fbcb-4ca7-41b1-acbe-16340c4daa7e" folderId="Rjo2OTIyMzkw" folderName="Component" name="getComponent" type="process" version="11" />
+  <ComponentMetadata componentId="08983d17-0c1e-41cf-96bc-f676a034e51d" folderId="Rjo2OTIyMzkw" folderName="Component" name="Component" type="process" version="21" />
+  <ComponentMetadata componentId="73118e5a-aaa5-4633-8137-34619251da6a" folderId="Rjo2MDk4OTkz" folderName="QuickDeploy" name="(core) utils QUERY DepoyableComponents" type="process" version="124" />
+  <ComponentMetadata componentId="2bf1210b-3227-436e-9741-52b30a891570" folderId="Rjo2OTczOTU5" folderName="gpt" name="Boomi AtomSphere API ComponentMetadata QUERY Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="1db8925b-814f-4ea2-9e3b-17d3c00f47dd" folderId="Rjo2OTczOTU5" folderName="gpt" name="AAPI QUERY ComponentMetadata (type)" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="56c9f593-b190-474d-b897-df17e4bd39b7" folderId="Rjo2OTczOTU5" folderName="gpt" name="AAPI GET Component" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="97396586-1d3b-4909-bccd-806ea453f339" folderId="Rjo2OTczOTU5" folderName="gpt" name="gpt GET script-component.html" subType="wss" type="connector-action" version="2" />
+  <ComponentMetadata componentId="8d7b3182-0097-478e-bd6d-28cf7b6ea472" folderId="Rjo2OTczOTU5" folderName="gpt" name="-gpt GET script-component.html" type="process" version="3" />
+  <ComponentMetadata componentId="26504f5e-3b13-42fb-a426-f4988b3d78c4" folderId="Rjo2OTczOTU5" folderName="gpt" name="Boomi AtomSphere API Component UPDATE Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="0a64945f-8741-4833-9be1-b7575d44d141" folderId="Rjo2OTczOTU5" folderName="gpt" name="AAPI UPDATE Component" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="4d9ca234-a206-4f5d-8114-82d3a50741c9" folderId="Rjo2OTczOTU5" folderName="gpt" name="Boomi AtomSphere API Component GET Response" type="profile.xml" version="2" />
+  <ComponentMetadata componentId="452d6e60-50c9-45af-8406-ea98195e49cb" folderId="Rjo2OTczOTU5" folderName="gpt" name="Boomi AtomSphere API Component UPDATE Request" type="profile.xml" version="2" />
+  <ComponentMetadata componentId="7e84b4fa-2aff-4019-9cac-30662c97e01b" folderId="Rjo2OTczOTU5" folderName="gpt" name="AAPI HTTP GET Component" subType="http" type="connector-action" version="1" />
+  <ComponentMetadata componentId="44d839c1-9339-4c51-9602-700d400d1dc7" folderId="Rjo2OTczOTU5" folderName="gpt" name="AAPI HTTP POST 2 Component" subType="http" type="connector-action" version="2" />
+  <ComponentMetadata componentId="a479cd49-2a70-431f-86d4-1f744f993dd8" folderId="Rjo2OTczOTU5" folderName="gpt" name="AAPI HTTP POST Component" subType="http" type="connector-action" version="3" />
+  <ComponentMetadata componentId="31a6dfbe-6611-4152-98a1-f031d1f5f5d1" folderId="Rjo2OTczOTU5" folderName="gpt" name="AAPI Component (process.script)" type="profile.xml" version="26" />
+  <ComponentMetadata componentId="747e85b2-642a-4986-a309-2292bb94a7ac" folderId="Rjo2OTczOTU5" folderName="gpt" name="(core) gpt GET script-component" type="process" version="19" />
+  <ComponentMetadata componentId="8e7ce990-d7ba-4220-b18d-650a114a6547" folderId="Rjo2OTg2MDk4" folderName="z_scratch" name="Boomi AtomSphere API ComponentMetadata QUERY Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="935e0e3d-a37b-4523-98c5-93ce651b51c0" folderId="Rjo2OTg2MDk4" folderName="z_scratch" name="Boomi AtomSphere API ComponentMetadata QUERY Response 2" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="9c806948-b8b1-4824-aa9d-cfb15d3cd8f9" folderId="Rjo2OTg2MDk4" folderName="z_scratch" name="AAPI QUERY ComponentMetadata (type, %name%)" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="0024b978-d011-41eb-9489-7d44745d4634" folderId="Rjo2OTg2MDk4" folderName="z_scratch" name="AAPI QUERY ComponentMetadata (type, %name%) 2" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="b81fc872-2113-40e1-9a36-ec7e9353fa5a" folderId="Rjo2OTg2MDk4" folderName="z_scratch" name="AAPI QUERY ComponentMetadata (type, name)" subType="boomiapi" type="connector-action" version="1" />
+  <ComponentMetadata componentId="d8d19c84-63ff-463f-b27b-cf2ba96e6c97" folderId="Rjo2OTk2Nzg4" folderName="Component Rename" name="WU.CR001 INDEX component-rename WSS" subType="wss" type="connector-action" version="3" />
+  <ComponentMetadata componentId="ba117163-c58c-4ee8-a3e0-0125770c3333" folderId="Rjo2OTk4NzMz" folderName="QuickDeploy" name="Boomi AtomSphere API ComponentMetadata QUERY Response" type="profile.xml" version="1" />
+  <ComponentMetadata componentId="94bee717-05c1-4850-a77b-794fbbebca3d" folderId="Rjo2OTk4NzMz" folderName="QuickDeploy" name="-WUI.AU.QD02 GET QUERY Components" type="process" version="7" />
+  <ComponentMetadata componentId="5a9adb46-3664-47f4-bbf9-2b22549a98b6" folderId="Rjo2OTk4NzMz" folderName="QuickDeploy" name="WUI.AU.QD02 GET PART Components WSS" subType="wss" type="connector-action" version="4" />
+  <ComponentMetadata componentId="132ddea6-e389-4265-a529-5340b039802c" folderId="Rjo2OTk4NzMz" folderName="QuickDeploy" name="WUI.AU.QD02 CACHE Component (no profile)" type="documentcache" version="5" />
+</ComponentMetadatas>

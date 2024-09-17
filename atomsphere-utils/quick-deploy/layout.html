@@ -9,6 +9,7 @@
     
     <script src="https://unpkg.com/htmx.org@2.0.2" integrity="sha384-Y7hw+L/jvKeWIRRkqWYfPcvVxHzVzn5REgzbawhxAuQGwX1XWe70vji+VSeHOThJ" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/htmx.org/dist/ext/json-enc.js"></script>
+    <script src="../_common/htmx-json-enc-custom.js"></script>
     <script type="text/javascript" src="../_common/functions.js"></script>
     <script type="text/javascript" src="functions.js"></script>
 
@@ -17,7 +18,9 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body>
+  <!--https://www.reddit.com/r/htmx/comments/1blwnc4/tip_of_the_day_unobtrusive_global_loading/-->
+  <body hx-indicator=".loading-bar">
+    <progress class=loading-bar></progress>
     <div class="container-header">
       {{header.html}}
     </div>

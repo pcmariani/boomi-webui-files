@@ -1,24 +1,24 @@
-<h3>HELLO</h3>
 <div id="main" class="grid">
   <div>
     <form role="search" id="search-bar" onsubmit="return false;">
       <input id="search" name="q" type="search" placeholder="Start typing component name"
         hx-get="components"
         hx-include="#search"
+        hx-trigger="keyup delay:400ms changed, search, keyup[keyCode==13]"
         hx-target="#search-results"
-        hx-trigger="search, keyup delay:200ms changed, keyup[keyCode==13]"
         hx-swap="innerHTML"
-        <!--hx-on::after-on-load="executeSearchOpt(); updateTimeAgo(); makeTablesSortable();"-->
-        hx-indicator="#spinner"
+        hx-on::after-on-load="executeSearchOpt(); updateTimeAgo(); makeTablesSortable();"
+        <!--hx-indicator="#spinner"-->
+        hx-sync="this:replace"
       />
-      <input type="submit" value="Search"
+      <!--<input type="submit" value="Search"-->
         <!--hx-get="components"-->
         <!--hx-include="#search"-->
         <!--hx-target="#search-results"-->
         <!--hx-trigger="search, keyup delay:200ms changed, keyup[keyCode==13]"-->
         <!--hx-swap="innerHTML"-->
         <!--hx-on::after-on-load="executeSearchOpt(); updateTimeAgo(); makeTablesSortable();"-->
-      />
+      <!--/>-->
     </form>
   </div>
 
